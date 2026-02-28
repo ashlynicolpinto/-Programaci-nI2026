@@ -1,0 +1,98 @@
+Ashly Nicol Pinto Orellana                                           0907- 25- 10788
+
+Resumen del video:                                                                                         
+
+En el video del canal Fazt, se explica qué es Git y cómo usarlo junto con GitHub paso a paso.
+Primero enseña cómo instalar Git y cómo configurarlo con tu nombre y correo. Luego muestra cómo crear un proyecto, iniciar un repositorio, guardar cambios y subirlos a GitHub.
+
+El video también explica:
+-Cómo Git guarda el historial de cambios.
+-Cómo crear versiones del proyecto
+-Cómo trabajar con ramas (branches).
+-Cómo conectar el proyecto local con GitHub.
+-Cómo subir y descargar cambios.
+
+En resumen, el video enseña cómo usar Git desde cero hasta subir el primer proyecto a GitHub.
+
+Respuestas a las preguntas:
+
+1. ¿Qué es GIT?
+Git es un programa que sirve para guardar y controlar los cambios de un proyecto. Cada vez que guardas, Git puede crear una versión diferente para que
+si te equivocas puedas regresar a una versión anterior.
+Git trabaja en tu computadora y guarda todo el historial de cambios.
+
+
+2. ¿Cuáles son los comandos más importantes y para qué sirven?
+Aquí están los comandos principales:
+
+git init -Inicia Git en una carpeta.
+
+git status - Muestra qué archivos han cambiado.
+
+git add - Prepara los archivos para guardarlos.
+
+git commit -m "mensaje" - Guarda los cambios con una descripción.
+
+git log - Muestra el historial de cambios.
+
+git clone - Copia un repositorio de GitHub a tu computadora.
+
+git push - Sube tus cambios a GitHub.
+
+git pull - Descarga cambios desde GitHub.
+
+git branch - Crea o muestra ramas.
+
+git checkout - Cambia de rama.
+
+
+3. ¿Cuál es la diferencia entre Git y GitHub?
+
+-Git es el programa que instalas en tu computadora para controlar versiones.
+
+-GitHub es una página web donde puedes subir los proyectos hechos con Git para guardarlos en internet y compartirlos.
+
+En palabras simples:
+
+Git = trabaja en la computadora.
+
+GitHub = guarda los proyectos en la nube.
+
+
+
+4. Enumere los comandos para subir cambios a un repositorio
+
+Para subir cambios a GitHub se hacen estos pasos:
+
+git add .
+
+git commit -m "mensaje"
+
+git push
+
+Si es la primera vez que conectas el repositorio:
+
+git remote add origin URL
+
+git branch -M main
+
+git push -u origin main
+
+
+
+5. ¿Qué es una branch?
+
+Una branch (rama) es una copia del proyecto donde puedes hacer cambios sin afectar el trabajo principal.
+
+Por ejemplo:
+
+Rama principal: main
+
+Rama nueva: prueba
+
+Puedes trabajar en la rama prueba y si todo funciona bien, luego unirla a la rama principal.
+
+
+
+
+
